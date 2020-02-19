@@ -1,0 +1,46 @@
+// Place all the styles related to the tasks controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.container {
+  width: 700px;
+  margin: 0 auto;
+}
+.form {
+  display:flex;
+  align-items: flex-start;
+  justify-content:center;
+}
+h1 {
+  text-align:center;
+}
+
+#task_title, #task_details, #task_completed {
+  width: 100%;
+  height:50px;
+  margin: 25px;
+}
+
+input[type="submit"] {
+  background-color: blue;
+  margin: 25px;
+  padding: 12px 24px;
+  color: white;
+}
+
+label {
+  margin-left: 25px;
+}
+
+
+p {
+  margin-left: 45px;
+}
+
+.form-check {
+  margin-left: 45px;
+}
+
+.form-check label {
+  margin-left: 0;
+}

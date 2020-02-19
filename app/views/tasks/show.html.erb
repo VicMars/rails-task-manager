@@ -1,0 +1,12 @@
+<div class="container">
+
+<h1><%= @task.title %></h1>
+<p class="edit_link"><%= link_to "Edit this task", edit_task_path %></p>
+<p><%= @task.details %></p>
+
+<div class="form-check">
+    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+    <label class="form-check-label" for="exampleCheck1">This task is not yet completed</label>
+</div>
+
+</div>
